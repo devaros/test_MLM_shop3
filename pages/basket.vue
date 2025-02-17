@@ -3,7 +3,12 @@
     <NuxtLayout name="main" header="Корзина">
 
       <v-list>
-        <v-list-subheader class="text-h5 bg-secondary">Ваша корзина покупок</v-list-subheader>
+        <v-list-item  class="text-h5 bg-secondary">
+          Ваша корзина покупок
+          <template v-slot:append>
+            <div class="mr-4">Цена, [руб]</div>
+          </template>
+        </v-list-item >
 
         <v-list-item color="primary" v-if="!basket_store.basket.length">
            корзина покупок пуста
@@ -27,7 +32,7 @@
           <v-list-item-title class="text-wrap text-center"> Итого товаров на сумму
           </v-list-item-title>
           <template v-slot:append>
-            {{total}}
+            <div>{{total}}</div> руб
           </template>
 
         </v-list-item>
