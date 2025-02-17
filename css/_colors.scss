@@ -1,0 +1,13 @@
+
+.basket{
+  &.fill-warn svg{
+    fill:#ee7722;
+  }
+  &:not(.fill-warn) svg{
+    fill:#eeeeee;
+  }
+}
+
+.text-price{
+  color: #ffdd99;
+}
