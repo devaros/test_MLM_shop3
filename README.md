@@ -1,4 +1,7 @@
-# Nuxt Minimal Starter
+# Nuxt Minimal Market
+
+![image info](./intro.png)
+
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -79,12 +82,6 @@ see host links tap any
 
 ## Дизайн
 Использовать Vuetify
-
-## Результат
-Надо выложить на github и прислать ссылку
-
-
-
 
 
 ## 📑 License
