@@ -11,13 +11,12 @@ npm i
 
 npm run dev
 
- 🛠️ **Settings**
-
-. . . . . . . . 
-
 ## 💡 Usage
 
 see host links tap any
+
+
+ * * * * * * *  * * * * * * *  * * * * * * * 
 
 
 ## ✨ Задача
