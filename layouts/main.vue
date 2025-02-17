@@ -9,7 +9,7 @@
         <v-app-bar-nav-icon :to="{name:'index'}"></v-app-bar-nav-icon>
       </template>
 
-      <v-app-bar-title class="title"> MLM - test - market {{ layoutProps.header && (' - '+layoutProps.header) }}
+      <v-app-bar-title class="title">  {{ layoutProps.header || 'Market' }} 
       </v-app-bar-title>
 
       <shop-bag :to="{name:'basket'}" />

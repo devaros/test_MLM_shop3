@@ -6,7 +6,7 @@
         <v-img :src="img_path"></v-img>
       </v-avatar>
 
-      <div>
+      <div class="text-end">
         <v-card-title class="text-h5 text-wrap">
           {{category}}
         </v-card-title>

@@ -43,4 +43,29 @@ export default defineNuxtConfig({
   pinia: {
     storesDirs: ['./store/**', './store/*.*'],
   },
+
+  devServer: {
+      //headers: {
+        //'Access-Control-Allow-Origin': '*'            
+      //},
+      // open: process.platform === 'darwin',
+      host: '0.0.0.0',
+      port: 3001, // CHANGE YOUR PORT HERE!
+      https: false,
+      //hotOnly: false,
+      //hmr: true,
+      //watch: ["./src"],
+      //watch: {
+        //usePolling: true,
+        //interval: 100,
+        //poll: 101, // Check for changes every second
+      //},
+      //watchFiles: [
+       //'/ui/src/components/virtual-scroll/*'
+      //]
+      //watchOptions: {
+        //poll: 101 // Check for changes every second
+      //},
+  },
+
 })
